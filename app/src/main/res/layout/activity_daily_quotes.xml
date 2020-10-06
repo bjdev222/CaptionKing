@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dailyQuotes"
+    android:background="#dddce0">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="May 32, 2020"
+        android:id="@+id/datainfo"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"></TextView>
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_marginTop="62dp"
+        android:paddingBottom="50dp"></ListView>
+    <LinearLayout
+        android:id="@+id/adbanner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:background="#dddce0"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+</RelativeLayout>

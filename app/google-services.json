@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "320481915944",
+    "firebase_url": "https://unique-d1a21.firebaseio.com",
+    "project_id": "unique-d1a21",
+    "storage_bucket": "unique-d1a21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320481915944:android:1b3c5911eb9ffa55fa311d",
+        "android_client_info": {
+          "package_name": "com.infinite.CaptionKing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320481915944-r36tsvg9svci1mukb8j81v5c5cbo69ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByIS0TLsqzpKu-kZ6B_1PoGs_Nnlz-IY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320481915944-r36tsvg9svci1mukb8j81v5c5cbo69ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

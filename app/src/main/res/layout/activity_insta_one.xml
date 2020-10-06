@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".insta_one">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Your Data Will Be Shown Here"
+        android:id="@+id/datainfo"
+        android:gravity="center"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#dddce0"
+        android:paddingLeft="15dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint='Search "Love"'
+        android:background="@drawable/corner"></EditText>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_cancel_black_24dp"
+        android:paddingLeft="20dp"
+        android:visibility="gone"
+        android:id="@+id/cancel"></Button>
+    </LinearLayout>
+   
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_marginTop="70dp"
+        android:paddingBottom="50dp"></ListView>
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</RelativeLayout>
